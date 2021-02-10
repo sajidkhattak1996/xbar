@@ -1,0 +1,175 @@
+<!Doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<title>Xbar Get a Quote</title>
+	
+    <meta name="description" content="">
+	<meta name="author" content="">
+
+    <link rel="shortcut icon" href="img/Logo-01-01.png" type="image/x-icon" />
+    
+    <!-- **CSS - stylesheets** -->
+	<link id="default-css" rel="stylesheet" href="style.css" type="text/css" media="all" />
+	
+    <!-- **Additional - stylesheets** -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link id="skin-css" rel="stylesheet" href="css/light.css" type="text/css" media="all"/>
+    <link href="css/pace.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all"/>    
+    
+    <!-- **Font Awesome** -->
+	<script src="https://kit.fontawesome.com/d435920f92.js" crossorigin="anonymous"></script>
+                
+</head>
+
+<body>
+  <!-- loader -->
+  <div class="loader-wrapper">
+    <div class="loader-container">
+      <div class="x">
+        <span style="text-decoration: overline;">X</span>
+      </div>
+    </div>  
+    <div class="my_loader">
+        <div class="horizantal_bar quote_bar_change"></div>
+    </div>        
+</div>
+<!-- **Wrapper** -->
+<div class="wrapper"> 
+	<div class="inner-wrapper">
+        <div id="header-wrapper" class="dt-sticky-menu"> <!-- **header-wrapper Starts** -->
+          <header id="header">
+              <div class="container">
+                      
+                  <!-- **Logo - End** -->
+                  <div id="logo">
+                    <a href="index.html" title="Foreal"> <img src="img/Logo-01-01.png" alt="logo"  style="width: 60px;height: 40px"  /> </a>
+                </div><!-- **Logo - End** -->
+                  
+                  <nav id="main-menu">
+                      <div id="dt-menu-toggle" class="dt-menu-toggle">
+                        Menu
+                        <span class="dt-menu-toggle-icon"></span>
+                      </div>                  
+                  
+                      <ul class="menu">
+                        <li class=" menu-item-simple-parent"><a class="overline" href="index.html" data-hover="Home">Home</a></li>
+                        <li class="menu-item-simple-parent"><a class="overline" href="about.html" data-hover="About">About</a></li>
+                        <li class="menu-item-simple-parent"><a class="overline" href="services.html" data-hover="Services">Services</a></li>
+                        <li class="current_page_item menu-item-simple-parent"><a class="overline" href="get_a_quote.html" data-hover="Get a Quote">Get a Quote</a></li>
+                        
+                    </ul>
+                  </nav>
+                      
+              </div>
+          </header>	
+        </div>  <!-- **header-wrapper Ends** -->
+            
+        <!-- **Main - Starts** --> 
+    <div id="main">
+        
+        <div class="dt-sc-hr-invisible-small"></div>    
+        <section id="primary" class="content-full-width">
+ 
+            <div class="fullwidth-section"> <!-- **Full-width-section Starts Here** -->
+                <div class="container">
+                    
+                    <div class="features">
+              
+                        <!-- **Full-width-section Starts Here** -->
+                        <!-- <!-- <div class="fullwidth-section">  -->
+                          <div class="container">
+                            <div class="main-title">
+                                <h3>Request a Quote Form</h3>
+                                <h6>Request a quote.</h6>
+                            </div>
+                          </div>
+                            <div class="container">
+                             
+                                <form  id="mail_form" method="post">
+                                  <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="fname">First Name</label>
+                                      <input type="text" class="form-control border " id="fname" value="" placeholder="First Name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="lname">Last Name</label>
+                                      <input type="text" class="form-control border" id="lname" value="" placeholder="Last Name">
+                                    </div>
+                                  </div>
+                                  <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="mobileno">Mobile No</label>
+                                      <input type="text" class="form-control border" id="mobileno" value="" placeholder="Mobile No">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="email">Email</label>
+                                      <input type="email" class="form-control border" id="email" value="" placeholder="Email">
+                                    </div>
+                                  </div>
+            
+                                  <div class="form-group">
+                                    <label for="services_select">Select Service</label>
+                                    <select id="services_select" class="form-control border" required>
+                                      <option value="">Select</option>
+            
+                                      <option value="Brand Development" >Brand Development  </option>
+                                      <option value="Business Management">Business Management   </option>
+                                      <option value="Digital Marketing">Digital Marketing   </option>
+                                      
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="message">Enter Your Message</label>
+                                    <textarea class="form-control border" id="message" rows="3" value=""></textarea>
+                                  </div>
+                                  <div class="d-flex justify-content-center">
+                                    <input type="submit" class="btn btn-outline-dark btn-lg" value="Send">
+                                  </div>
+                                </form>
+                                <div id="ajax_contactform_msg"></div>
+                            </div>
+                        </div> 
+                        <!-- **Full-width-section Ends Here** -->
+            
+                    </div>
+                    <div class="dt-sc-hr-invisible-very-small"></div>
+                </div>
+        </section>
+    </div> <!-- **container - Ends** -->
+            <div class="fullwidth-section parallax parallax-img"> <!-- **Full-width-section Starts Here** -->
+            	
+            </div> <!-- **Full-width-section Ends Here** -->
+        </div> <!-- **Main - Ends** --> 
+        
+        <footer id="footer"> <!-- **Footer Starts Here** -->
+            <div class="copyright">
+                <div class="container">
+                   <p> Copyright © 2021 <span style="text-decoration: overline;">X</span>bar All Rights Reserved. </p>
+                   <div class="d-flex justify-content-center">
+                    <a href=""  class="text-light  h2 "><i class="fab fa-instagram"></i></a> &nbsp;&nbsp;
+                    <a href=""  class="text-light  h2"><i class="fab fa-facebook-square"></i></a>
+                </div>
+                </div>
+            </div>
+          </footer> <!-- **Footer Ends Here** -->
+
+        
+    </div><!-- **inner-wrapper - End** -->
+    
+</div><!-- **Wrapper - End** -->
+        
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="js/jsplugins.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>  
+<script src="js/send_mail.js"></script>      
+        
+</body>
+</html>
